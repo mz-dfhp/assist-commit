@@ -14,6 +14,9 @@ importers:
       '@rollup/plugin-typescript':
         specifier: ^11.1.6
         version: 11.1.6(rollup@4.18.1)(tslib@2.6.3)(typescript@5.5.3)
+      '@types/node':
+        specifier: ^20.14.11
+        version: 20.14.11
       eslint:
         specifier: ^9.7.0
         version: 9.7.0
@@ -2250,7 +2253,6 @@ snapshots:
   '@types/node@20.14.11':
     dependencies:
       undici-types: 5.26.5
-    optional: true
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -3583,8 +3585,7 @@ snapshots:
 
   ufo@1.5.4: {}
 
-  undici-types@5.26.5:
-    optional: true
+  undici-types@5.26.5: {}
 
   unist-util-stringify-position@2.0.3:
     dependencies:
