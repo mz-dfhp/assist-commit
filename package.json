@@ -9,15 +9,18 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "dev": "",
-    "build": "",
+    "dev": "tsc -w",
+    "build": "rollup -c",
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.23.0",
+    "@rollup/plugin-typescript": "^11.1.6",
     "eslint": "^9.7.0",
+    "rollup": "^4.18.1",
+    "typescript": "^5.5.3",
     "vitest": "^2.0.3"
   }
 }
